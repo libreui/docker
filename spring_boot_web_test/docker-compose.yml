@@ -1,0 +1,15 @@
+version: '3'
+networks:
+  persist:
+    external:
+      name: libre_bridge
+services:
+  spring_boot_web_test:
+    container_name: spring_boot_web_test #配置容器名
+    build: ./
+    ports:
+      - 882:80 # 暴露端口
+    volumes:
+      - ./logs:/usr/local/log # 创建容器数据卷
+    networks:
+      - persist

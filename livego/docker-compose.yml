@@ -1,0 +1,11 @@
+version: "3"
+services:
+  livego:
+    image: gwuhaolin/livego
+    container_name: livego
+    restart: always
+    ports:
+      - 1935:1935
+      - 7001:7001
+      - 7002:7002
+      - 8090:8090

@@ -1,0 +1,64 @@
+06-Jul-2023 06:41:47.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.10
+06-Jul-2023 06:41:47.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2023 18:11:59 UTC
+06-Jul-2023 06:41:47.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.10.0
+06-Jul-2023 06:41:47.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Jul-2023 06:41:47.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.49-linuxkit
+06-Jul-2023 06:41:47.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jul-2023 06:41:47.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+06-Jul-2023 06:41:47.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7
+06-Jul-2023 06:41:47.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-Jul-2023 06:41:47.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+06-Jul-2023 06:41:47.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+06-Jul-2023 06:41:47.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+06-Jul-2023 06:41:47.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2023 06:41:47.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jul-2023 06:41:47.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2023 06:41:47.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+06-Jul-2023 06:41:47.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+06-Jul-2023 06:41:47.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+06-Jul-2023 06:41:47.247 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.4] using APR version [1.7.0].
+06-Jul-2023 06:41:47.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+06-Jul-2023 06:41:48.092 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jul-2023 06:41:48.162 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1281] milliseconds
+06-Jul-2023 06:41:48.275 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jul-2023 06:41:48.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.10]
+06-Jul-2023 06:41:48.335 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jul-2023 06:41:48.513 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [350] milliseconds
+06-Jul-2023 07:07:10.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.10
+06-Jul-2023 07:07:10.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2023 18:11:59 UTC
+06-Jul-2023 07:07:10.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.10.0
+06-Jul-2023 07:07:10.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Jul-2023 07:07:10.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.49-linuxkit
+06-Jul-2023 07:07:10.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jul-2023 07:07:10.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+06-Jul-2023 07:07:10.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7
+06-Jul-2023 07:07:10.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-Jul-2023 07:07:10.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+06-Jul-2023 07:07:10.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+06-Jul-2023 07:07:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+06-Jul-2023 07:07:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2023 07:07:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2023 07:07:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2023 07:07:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Jul-2023 07:07:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2023 07:07:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2023 07:07:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jul-2023 07:07:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jul-2023 07:07:10.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2023 07:07:10.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+06-Jul-2023 07:07:10.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+06-Jul-2023 07:07:10.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+06-Jul-2023 07:07:10.054 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.4] using APR version [1.7.0].
+06-Jul-2023 07:07:10.060 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+06-Jul-2023 07:07:10.291 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jul-2023 07:07:10.316 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [445] milliseconds
+06-Jul-2023 07:07:10.363 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jul-2023 07:07:10.364 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.10]
+06-Jul-2023 07:07:10.389 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jul-2023 07:07:10.415 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [98] milliseconds

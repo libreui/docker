@@ -1,0 +1,22 @@
+version: '3'
+networks:
+  persist:
+    external:
+      name: libre_bridge
+services:
+  tomcat:
+    user: root
+    container_name: tomcat
+    image: tomcat
+    privileged: true
+    environment:
+      - TZ="Asia/Shanghai"
+    ports:
+      - 1002:8080
+    volumes:
+      - ./webapps/:/usr/local/tomcat/webapps/
+      - ./conf:/usr/local/tomcat/conf
+      - ./logs:/usr/local/tomcat/logs
+      - ./bin:/usr/local/tomcat/bin
+    networks:
+      - persist
