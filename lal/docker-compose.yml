@@ -1,0 +1,13 @@
+version: '3'
+services:
+  lalserver:
+    image: q191201771/lal
+    ports:
+      - 1935:1935
+      - 8080:8080
+      - 4433:4433
+      - 5544:5544
+      - 8083:8083
+      - 8084:8084
+      - 30000-30100:30000-30100/udp
+    command: /lal/bin/lalserver -c /lal/conf/lalserver.conf.json
